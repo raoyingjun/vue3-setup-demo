@@ -1,24 +1,17 @@
-# vue3-setup-demo
+# 一个使用了vue3组合式API setup的示例
 
-## Project setup
-```
-npm install
-```
+这是一个基于组合式API setup实现的姓名列表过滤的示例
 
-### Compiles and hot-reloads for development
+## 用法
 ```
-npm run serve
+cd vue3-setup-demo & npm install
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## 如何理解组合式API
+将组件的逻辑关注点抽离到相关的代码配置中，最后只需将
+将处理好的逻辑通过暴露给vue组件。总结下来：
 
-### Lints and fixes files
-```
-npm run lint
-```
+* 组件不再进行逻辑处理，组件的代码量变小了、可读性变高了
+* 逻辑关注点分离，降低了耦合性
+* 理解组件的功能和维护组件更轻松
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
